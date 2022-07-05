@@ -11,6 +11,10 @@ h3 {
     font-size: 45px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 .flex-container {
     display: flex;
 }
@@ -49,6 +53,8 @@ h3 {
     background-image: linear-gradient(#FBA24F, #FF1E1E);
     padding: 15px 30px;
     border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
     /* box-shadow: 2px 0px 30px gray; */
 }
 
@@ -62,17 +68,67 @@ h3 {
     margin-left: 200px;
 }
 
+.recipe-sec {
+    margin-top: 50px;
+    margin-right: 10%;
+}
+
 .recipe-over {
     text-align: center;
     padding: 0 380px;
 }
 
-.recipe-sec figure {
+.recipes {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+}
+
+.recipe-sec figure img {
     width: 500px;
     height: 400px;
 }
 
 #cap-eight {
     border-radius: 38px;
-    height: 458px;
+    height: 400px;
+}
+
+.subscribe-section {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+.third-width {
+    width: 33.33%;
+}
+
+footer {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    width: 100%;
+    height: 300px;
+}
+
+footer h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 150px;
+    text-align: end;
 }
